@@ -97,7 +97,6 @@ def a():
   some = input()
   waa = os.getenv('TOKEN')
   if some == waa:
-    time.sleep(1)
     replit.clear()
     print("\nloading Pysearcher...")
     time.sleep(3)
@@ -107,6 +106,8 @@ def a():
     time.sleep(5)
     print("\nloading samPy...")
     time.sleep(7)
+    print("\nloading encryptPy...")
+    time.sleep(3)
     replit.clear()
     start()
     
